@@ -24,7 +24,7 @@ document.getElementById("bonus-btn")
 
     setbalance(newBalance);
 
-    // ✅ history add (tomar ager style)
+    // ✅ history add 
     const history = document.getElementById("history-container");
 
     const newhistory = document.createElement("div");

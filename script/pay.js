@@ -42,6 +42,8 @@ document.getElementById("pay-bill-btn").addEventListener("click", function () {
     setbalance(newbalance);
     console.log(newbalance);
 
+    //adding to history section
+
     const history = document.getElementById("history-container");
 
     const newhistory = document.createElement("div");

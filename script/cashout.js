@@ -39,6 +39,8 @@ document.getElementById("cashout-btn").addEventListener("click", function() {
           console.log(newBlance);
            setbalance(newBlance);
 
+           //adding to history section
+
             const history = document.getElementById("history-container");
 
     const newhistory = document.createElement("div");

@@ -19,9 +19,11 @@ document.getElementById("add-money-btn").addEventListener("click", function () {
     alert("Please enter a valid amount");
     return;
   }
+
+  //calculating amount
   const newbalance = getBalance() + Number(amount);
 
-  //get pin
+  //get pin and verifying and adding to history section
   const pin = getValueFromInput("add-pin");
   if (pin === "1234") {
     alert(
@@ -29,6 +31,8 @@ document.getElementById("add-money-btn").addEventListener("click", function () {
     );
     setbalance(newbalance);
     console.log(newbalance);
+
+    //adding to history section
 
     const history = document.getElementById("history-container");
 

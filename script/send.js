@@ -38,6 +38,8 @@ document.getElementById("send-btn").addEventListener("click", function () {
     setbalance(newBalance);
     console.log(newBalance);
 
+    //adding to history section
+
     const history = document.getElementById("history-container");
 
     const newhistory = document.createElement("div");
